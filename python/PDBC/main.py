@@ -103,20 +103,20 @@ while True:
         break;
 
 
-update
-delete 
-create 
-insert
-select 
+# update
+# delete 
+# create 
+# insert
+# select 
 
 
-if-elif-else 
-while 
-print()
-varaibles
-input()
-int(),float()
-import 
-list 
-for loop 
+# if-elif-else 
+# while 
+# print()
+# varaibles
+# input()
+# int(),float()
+# import 
+# list 
+# for loop 
 
