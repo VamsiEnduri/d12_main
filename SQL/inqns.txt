@@ -1,0 +1,128 @@
+what is data and what is database ?
+data is nothing but set of info and database is nothing but where i store all my data 
+
+
+what is dbms and types of dbms ?
+dbms stands for database management system and dbms are few types :-- 1. rdbms 2.nordbms
+
+
+what is rdbms and give an exmaples ?
+rdbms stands for relational database management system and it is used to build realtions b/w the tables and mysql is example for rdbms and also oracledb, sqllite etc..
+
+
+what is sql ?
+sql stands for structured query lang and it is used to communicate with rdbms 
+
+
+
+what is d/f b/w sql and mysql ?
+sql stands for structured query lang and it is used to communicate with rdbms where mysql is software and we need to install it and it is used to manage the data in dbs and used to perform crud operations over the data
+
+what are datatypes in sql ? and mention few ?
+we use datatypes in sql to define what data to be entreded into particular column  and we have few dTypes :-- char, varchar, int, decimal, date, enum,boolean etc..
+
+
+what is d/f b/w char() vs varchar()  datatypes in sql ?
+when ever we wanna give fixed values like "M" r "F" then we can go with char(1) and here we do waste any memory where varchar(50) is used to when ever you wanna give at most 50 char length (automatic length adjusting)
+
+what is d/f b/w the int and decimal datatypes in sql ?
+int and decimal are noth number type of datatypes and int is used to give fixed and number without decimal where decimal is used to give float number values with flexbility in value giving decimal(10,2)
+
+what is decimal and float dTypes in sql ? ###### research qn
+
+what are operators in sql and mention types of operators ?
+operator is a symbol and used to perform specific operations over operands
+and we have few operators and they are air, com, logical, special 
+
+
+
+what is d/f b/w the and , or , not logical  operators ?
+here and op is used to when we need to get left and right operands should be true 
+were or is used to when either one of operand is true 
+and where not is used to make vice-versa of value 
+
+
+
+what are special operators and explain each of them ?
+special operators are used to peform complex where conditions in easy and simple way
+and we have few ops :-- they are 1.in 2.between 3.like 4.is null 5.is not null
+
+in :-- is used to perform conditions on list of values with where clause
+between :-- is used to perform conditions over a range of values i.e inr r decimal values 
+like :-- is used to perform conditions where we wana do get person whose names ends with "a" r fooditem containg "chciken" in their names
+is null :-- is used to perform conditions when we wanna find where values is null 
+is not null :-- is used to perform conditions when we wanna find where values are not null
+
+
+what are constraints and explain each constraint in sql?
+constraints are used to perform condition while inserting the data into table and what  data should be enter into table and what not 
+and type of constraints are pk,fk,unique,not null,check,default
+
+
+what is d/f b/w the unique and pk ?
+unique :-- is used to maintain only unique values should be in to that column
+pk :-- is used to maintain unique + not null values should be in that column 
+
+what is d/f b/w check and default ?
+check :-- is is used to check the value and if condition is true then i will insert that value to that column 
+applying specific condition on particular column with specific criteria  
+
+default :-- 
+is used to give default value if we miss to pass any value into that column
+
+what is d/f b/w pk and fk ?
+pk :-- is used to maintain unique + not null values should be in that column 
+fk :-- 
+
+what are sql commands and types of sql cmmands ?
+sql commands are used to perform specific operations and we have 5 types of sql commands
+1. DQL :-- select
+2. DML :-- insert, update, delete
+3. DDL :-- create, alter, drop, truncate, rename
+4. TCL :-- commit, rollback
+5. DCL :-- grant, revoke
+
+
+what is the d/f b/w the select and insert commands ?
+select :-- is used to  select the columns from a specific table 
+insert :-- is used to insert the data into table as single row r multiple rows
+
+what is the d/f b/w the create and alter ?
+create :-- is used to create the table and db
+alter :-- is used to alter the table structure ( columns, rows, colunnmaes, tablenames,column dTypes,constraints)
+
+what is the d/f b/w the drop and delete ?
+drop :-- is used to drop the columns and tables and dbs 
+deleet :-- is used to delete the rows 
+
+
+what is the d/f b/w the alter and update ?
+alter :-- is used to alter the table structure ( columns, rows, colunnmaes, tablenames,column dTypes,constraints)
+update :-- is used to update the data in the existing row 
+
+
+what is the d/f b/w the update and modify ?
+update :-- is used to update the data in the existing row
+modify :-- is used to modify the structure of the column 
+
+
+
+what are clauses in sql and what are they ?
+clauses in sql are used to do filteration and grouping and applyig conidtion on grouped results and maintain the order of results
+
+where  :-- is used to perform filteration over the columns and getting matched rows 
+where :-- is used to filter rows based on conidtion over the column 
+group by :-- is used to group the table into multiple grps based onthe grping culmn_name
+order by  :-- is used to miantain the result tables data in order (asc, desc)
+having :-- is used to perform the condition over the virtual columns which wre created while using agg functions with grp by clause
+
+
+
+what are aggregate functions and what are they ?
+aggregate functions are used to get single values over no of values of a column 
+and they are 
+sum
+min 
+max
+avg 
+count
