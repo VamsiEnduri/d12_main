@@ -5,6 +5,8 @@ class A:
         self.name="srinu" # instance varaible
         print("a class init method")
 
+
+
     def height_A(self): # instance #instance varaibles
         self.height=5.6 # instance variables
         print(self.height)
